@@ -16,7 +16,8 @@
 - I was wondering if anyone has proposed a definition for what the Church encoding of an arbitrary datastructure is? Or is it an “I know it when I see it situation”?            
 
 ## Y-combinator
-- Do you have to use the Y-combinator to define factorial, or can you write it directly?         
+- Do you have to use the Y-combinator to define factorial, or can you write it directly?        
+    + EN: (not sure if this fully answers the question) Instead of using the Y-combinator, we can also define factorial using the U-combinator -- see appendix in slides. 
 - Walk through CBV vs CVN Y-combinators (if time allows)           
 
 ## Substitution
