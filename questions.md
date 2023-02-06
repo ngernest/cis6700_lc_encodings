@@ -7,7 +7,8 @@
     + EN: See https://cstheory.stackexchange.com/questions/3772/why-naturals-instead-of-integers for a discussion on why the natural numbers are used more in PL theory textbooks compared to the integers
 
 ## Other datatype encodings
-- Discuss how more complex data types such as lists can be encoded in the untyped lambda calculus     
+- Discuss how more complex data types such as lists can be encoded in the untyped lambda calculus   
+    + EN: We'll discuss the Church & Scott encodings for lists in the slides!  
 - Walk through exp/power operation for church numerals (if time allows)        
 - I was wondering if anyone has proposed a definition for what the Church encoding of an arbitrary datastructure is? Or is it an “I know it when I see it situation”?            
 
