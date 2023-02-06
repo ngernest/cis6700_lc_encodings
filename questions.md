@@ -11,7 +11,7 @@
     + EN: We'll discuss the Church & Scott encodings for lists in the slides!  
 - It would be potentially interesting to walk through exp/power operation for church numerals
     + From TAPL Exercise 5.2.4:           
-    [Imgur](https://i.imgur.com/tztMjhv.png]         
+    [tapl_5.2.4_soln](tapl_5.2.4_soln.png)         
     + EN: Also see the discussion in https://stackoverflow.com/questions/47563925/church-naturals-exponentiation-function-and-type-checking
 - I was wondering if anyone has proposed a definition for what the Church encoding of an arbitrary datastructure is? Or is it an “I know it when I see it situation”?            
 
