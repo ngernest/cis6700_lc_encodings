@@ -1,6 +1,8 @@
 # Questions
 
 ## Datatype encodings
+- p. 67 defines natural numbers in terms of having zero and operations iszero, succ, and pred. Why these three operations? (That is, if you chose a different set of operations, could you accidentally allow for representations that behave unlike how we expect natural numbers to behave?)
+    + EN: These operations seem to come from the Peano axioms (?) 
 - Discuss how more complex data types such as lists can be encoded in the untyped lambda calculus     
 - Walk through exp/power operation for church numerals (if time allows)           
 
