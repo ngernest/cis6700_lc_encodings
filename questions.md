@@ -3,7 +3,8 @@
 ## Representing natural numbers
 - p. 67 defines natural numbers in terms of having zero and operations iszero, succ, and pred. Why these three operations? (That is, if you chose a different set of operations, could you accidentally allow for representations that behave unlike how we expect natural numbers to behave?)
 - The reading and CIS 5000 talked a lot about natural number representation using z and s. I’m wondering what will be the complication for representing integers (negative value)?
-    + EN: These operations seem to come from the Peano axioms (?) 
+    + EN: From my limited knowldge, the Peano axioms give us a simple way of constructing the natural numbers, which give us a nice induction principle (the naturals are the simplest non-trivial inductive datatype). The natural numbers also come with a well ordering $\leq$, which is useful for termination proofs. For example, in formal verification, we can prove loop termination by using *ranking functions* that map onto $\mathbb{N}$ and showing that the ranking function strictly decreases for each loop iteration -- this takes advantage of the fact that there is a least element in $(\mathbb{N}, \leq)$ (see CIS 6730 for more).
+    + Also see https://cstheory.stackexchange.com/questions/3772/why-naturals-instead-of-integers 
 
 ## Other datatype encodings
 - Discuss how more complex data types such as lists can be encoded in the untyped lambda calculus     
